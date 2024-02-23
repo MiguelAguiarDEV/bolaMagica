@@ -1,0 +1,7 @@
+<div class="ball" (click)="fetchAdvice()" [class.shaking]="isShaking">
+    <div class="white-part">
+        <div class="fade-in" [class.grande]="respuesta == null" >
+            {{ respuesta != null ? respuesta : '8' }}
+        </div>
+    </div>
+</div>
